@@ -12,7 +12,8 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <ScreenSaver/>
+      <ScreenSaver />
+      <h1>Check out our cards and follow us! Go!</h1>
  
     </div>
   );

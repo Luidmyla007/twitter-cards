@@ -1,4 +1,4 @@
-
+import { Img } from "./ScreenSaver.styled";
 
 export const ScreenSaver = () => {
   return (
