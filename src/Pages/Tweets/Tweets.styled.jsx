@@ -17,7 +17,7 @@ export const GoBackWrapper = styled.div`
 `;
 
 export const Link = styled(NavLink)`
-margin: 0 auto;
+  margin: 0 auto;
   width: 100px;
   display: flex;
   gap: 5px;
