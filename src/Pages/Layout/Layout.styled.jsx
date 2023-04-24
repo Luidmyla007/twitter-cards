@@ -26,12 +26,16 @@ export const Title = styled.h1`
 color: rgba(31, 10, 38, 1);
 padding-left: 10px;
 font-size: 60px;
-text-shadow: 2px 2px 4px rgba(186, 235, 12, 1);
+text-shadow: 2px 2px 4px rgba(219, 191, 206, 1);
 letter-spacing: 1.7;
 margin-bottom: 20px;
 `;
 
 export const Link = styled(NavLink)`
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
   padding: 8px 16px;
   border-radius: 5px;
   text-decoration: none;
@@ -42,6 +46,7 @@ export const Link = styled(NavLink)`
   box-shadow: none;
   &:first child{
   margin-right: 30px;
+  box-shadow: 0px 4px 4px 2px rgba(30, 46, 46, 1);
   }
   &:hover,
   &:focus {
@@ -50,7 +55,7 @@ export const Link = styled(NavLink)`
     box-shadow: 0px 8px 8px 4px rgba(30, 46, 46, 1);
   }
   &.active {  
-    background-color: rgba(143, 73, 166, 1);
+    background-color: #5CD3A8;
     &:hover,
     &:focus {
       border: none;

@@ -5,8 +5,8 @@ export const Loader = () => {
   return (
     <StyledLoader>
       <Hearts
- height="100"
-  width="100"
+ height="500"
+  width="500"
   color="#bf16e0"
   ariaLabel="hearts-loading"
   wrapperStyle={{}}
