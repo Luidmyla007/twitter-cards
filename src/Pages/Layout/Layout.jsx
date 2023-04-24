@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import { Suspense } from 'react';
 import { Container, Header, Link, Title } from './Layout.styled';
-import { Loader } from '../../components/Loader/Loader';
+import { Loader } from 'components/Loader/Loader';
 import { AiOutlineHome } from "react-icons/ai";
 import { FaRegAddressCard } from "react-icons/fa";
 import { FaGrinStars } from "react-icons/fa";
