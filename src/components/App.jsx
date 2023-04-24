@@ -1,4 +1,5 @@
-import { ScreenSaver } from "./ScreenSaver/ScreenSaver";
+// import 'modern-normalize';
+
 
 export const App = () => {
   return (
@@ -12,7 +13,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <ScreenSaver />
+  
       <h1>Check out our cards and follow us! Go!</h1>
  
     </div>
