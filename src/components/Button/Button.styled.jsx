@@ -18,10 +18,8 @@ export const Btn = styled.button`
   text-align: center; 
    &:hover,
   &:focus {
-    transform: scale(1.1);
-    border: 1px solid rgba(31, 10, 38, 1);
-    box-shadow: 0px 8px 8px 4px rgba(30, 46, 46, 1);
-  }
+    background-color: #5CD3A8; 
+ }
 }  
 `;
 

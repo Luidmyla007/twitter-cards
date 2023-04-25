@@ -5,7 +5,7 @@ import {TweetsWrapper, TweetsList, GoBackWrapper, Link, BtnContainer } from "./T
 import { FaArrowLeft } from "react-icons/fa";
 import { Button } from 'components/Button/Button';
 import { fetchUsers } from "Fetch/fetchUsers";
-import  Card from "components/Card/Card";
+import { Card } from "components/Card/Card";
 
 function Tweets() {
   const location = useLocation(); 
