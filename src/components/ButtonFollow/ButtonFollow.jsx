@@ -2,17 +2,10 @@
 // import { ListItem } from './ContactItem.styled';
 // import { useState } from 'react';
 
-const ButtonFollower = (onClick) => {
-    // const [color, setColor] = useState();  
-    const alertStyles = { 
-  backgroundColor: "red",  
-};
-    const handleClick = () => {
-        return <button style={alertStyles}></button>
-  }
-
+const ButtonFollower = () => {
+  
     return (
-        <button type="button" style={{ backgroundColor: "yellow" }} onClick={() => handleClick()} >FOLLOW</button>
+        <button type="button">FOLLOW</button>
         
     );
 };
