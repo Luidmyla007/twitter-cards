@@ -11,7 +11,7 @@ export const fetchUsers = async (page,per_page) => {
             return data;
           });
       }
-      return await axios.get(`users/?followed=${filter}`).then( ({ data }) => {
+      return await axios.get(`users/`).then( ({ data }) => {
            return data;
       });
     }

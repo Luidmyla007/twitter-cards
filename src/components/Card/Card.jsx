@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { CardWrapper, CardTop, CardBottom, Avatar } from './Card.styled';
 
 
-const Card = ({ id, tweets, followers, avatar }) => {
+const Card = ({ id, tweets, followers, avatar, user }) => {
     return (
         <CardWrapper key={id}>
             <CardTop>
