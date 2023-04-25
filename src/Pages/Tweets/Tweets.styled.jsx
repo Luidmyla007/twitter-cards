@@ -1,9 +1,16 @@
 import styled from 'styled-components';
 import { NavLink } from 'react-router-dom';
 
+export const TweetsWrapper = styled.div` 
+  background-color: #AE7BE3;
+  min-height: 100vh;
+  padding-top: 40px;
+ 
+`;
 
 export const TweetsContainer = styled.div`
   padding: 30px 150px;
+  background-color: #AE7BE3;
   align-items: center;
   display: flex;  
   gap 30px;

@@ -10,7 +10,7 @@ export const Container = styled.div`
 export const Header = styled.header`
 background-color: rgba(178, 23, 230, 1);
 background-image: linear-gradient(to right, rgba(178, 23, 230, 1), rgba(197, 185, 201, 1));
-margin-bottom: 30px;
+border-bottom: 5px solid #EBD8FF;
 padding-left: 100px;
 padding-bottom: 20px;
 padding-top: 5px;
