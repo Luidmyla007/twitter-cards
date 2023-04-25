@@ -4,18 +4,18 @@ import { NavLink } from 'react-router-dom';
 export const TweetsWrapper = styled.div` 
   background-color: #AE7BE3;
   min-height: 100vh;
-  padding-top: 40px;
- 
+  padding-top: 40px; 
 `;
 
-export const TweetsContainer = styled.div`
+export const TweetsList = styled.ul`
+margin: 0 auto;
   padding: 30px 150px;
   background-color: #AE7BE3;
-  align-items: center;
   display: flex;  
-  gap 30px;
-  justify-content: space-around
-  flex-wrap: nowrap;
+  gap 45px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 `;
 
 export const GoBackWrapper = styled.div`
@@ -55,4 +55,11 @@ export const Link = styled(NavLink)`
       border: none;
       color: inherit;
    }  
+`;
+
+export const BtnContainer = styled.div`
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+margin-bottom: 20px;
 `;
