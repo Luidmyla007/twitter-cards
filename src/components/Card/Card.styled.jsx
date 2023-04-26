@@ -2,7 +2,6 @@ import styled from 'styled-components';
 import * as cardImage from '../../images/card-img.png';
 import * as goitLogo from '../../images/goit-logo.svg';
 
-
 export const CardWrapper = styled.li`
 position: relative;
 width: 380px;
@@ -25,7 +24,7 @@ justify-content: space-around;
 `;
 
 export const CardTop = styled.div`
-background-image: ${`url(${goitLogo.default})`}, ${`url(${cardImage.default})`};
+ background-image: ${`url(${goitLogo.default})`}, ${`url(${cardImage.default})`};
  background-repeat: no-repeat;
  background-size: 76px 22px, 308px 168px;
  background-position: top 20px left 20px, top 28px left 36px, 100%;
@@ -39,10 +38,10 @@ font-weight: 500;
 font-size: 20px;
 align-items: center;
 text-align: center;
- flex-grow: 1;
-   flex: 1;
-   display: flex;
-   flex-direction: column;
+flex-grow: 1;
+flex: 1;
+display: flex;
+flex-direction: column;
 gap: 16px;
 justify-content: center;
 `;
@@ -51,6 +50,6 @@ export const Avatar = styled.img`
 margin: 0 auto;
 align-items: center;
 border-radius: 50px;
- border: 8px solid #EBD8FF;
+border: 8px solid #EBD8FF;
 z-index: 10;
 `;
