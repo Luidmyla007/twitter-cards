@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/twitter-cards/static/css/main.7acaea2f.css",
-    "main.js": "/twitter-cards/static/js/main.604e9ef8.js",
+    "main.js": "/twitter-cards/static/js/main.a25c200a.js",
     "static/js/979.b6b9efad.chunk.js": "/twitter-cards/static/js/979.b6b9efad.chunk.js",
-    "static/js/477.0e1928d7.chunk.js": "/twitter-cards/static/js/477.0e1928d7.chunk.js",
+    "static/js/477.fa674311.chunk.js": "/twitter-cards/static/js/477.fa674311.chunk.js",
     "static/js/817.1594225a.chunk.js": "/twitter-cards/static/js/817.1594225a.chunk.js",
     "static/media/goit-logo.svg": "/twitter-cards/static/media/goit-logo.ed8d2d6f7ea349921680afb489ab80b8.svg",
     "index.html": "/twitter-cards/index.html",
     "main.7acaea2f.css.map": "/twitter-cards/static/css/main.7acaea2f.css.map",
-    "main.604e9ef8.js.map": "/twitter-cards/static/js/main.604e9ef8.js.map",
+    "main.a25c200a.js.map": "/twitter-cards/static/js/main.a25c200a.js.map",
     "979.b6b9efad.chunk.js.map": "/twitter-cards/static/js/979.b6b9efad.chunk.js.map",
-    "477.0e1928d7.chunk.js.map": "/twitter-cards/static/js/477.0e1928d7.chunk.js.map",
+    "477.fa674311.chunk.js.map": "/twitter-cards/static/js/477.fa674311.chunk.js.map",
     "817.1594225a.chunk.js.map": "/twitter-cards/static/js/817.1594225a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.604e9ef8.js"
+    "static/js/main.a25c200a.js"
   ]
 }
