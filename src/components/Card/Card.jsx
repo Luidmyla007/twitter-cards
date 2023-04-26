@@ -34,8 +34,7 @@ export const Card = ({ id, tweets, followers, avatar, user, followed, }) => {
     
     return (   
         <CardWrapper key={id}>
-            <CardTop>
-                <p>123</p>
+            <CardTop>             
             </CardTop>     
              <Avatar src={avatar} alt={user} width={62} height={62}/>
             <CardBottom>
