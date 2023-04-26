@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const CardWrapper = styled.div`
+export const CardWrapper = styled.li`
   width: 380px;
   height: 460px;
 border-radius: 20px;
