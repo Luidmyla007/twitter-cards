@@ -1,4 +1,3 @@
-// import 'modern-normalize';
 import { lazy } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Layout } from 'Pages/Layout/Layout';

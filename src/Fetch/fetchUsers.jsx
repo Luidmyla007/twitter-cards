@@ -6,8 +6,7 @@ export const fetchUsers = async (page,per_page) => {
         if (page && per_page) {
         return await axios
           .get(`users/?page=${page}&limit=${per_page}`)
-            .then(({ data }) => { 
-                console.log(data);
+            .then(({ data }) => {               
             return data;
           });
       }

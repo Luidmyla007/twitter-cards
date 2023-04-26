@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import PropTypes from 'prop-types';
 import { Button } from 'components/Button/Button';
 import { CardWrapper, CardTop, CardBottom, Avatar } from './Card.styled';
 import { refreshUsers } from 'Fetch/fetchUsers';
@@ -49,14 +48,6 @@ export const Card = ({ id, tweets, followers, avatar, user, followed }) => {
     );
 };
 
-Card.propTypes = {
-  id: PropTypes.string.isRequired,
-  tweets: PropTypes.number.isRequired,
-  followers: PropTypes.number.isRequired,
-  user: PropTypes.string.isRequired,
-  avatar: PropTypes.string,
-  followed: PropTypes.bool.isRequired
-};
 
 
 

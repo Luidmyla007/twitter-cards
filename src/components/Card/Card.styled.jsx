@@ -7,7 +7,7 @@ position: relative;
 width: 380px;
 height: 460px;
 border-radius: 20px;
-background: linear-gradient(to bottom right, #471CA9, #5736A3, #4B2A99);
+background: ${p => (p.followed ? 'linear-gradient(to bottom left, #766A92, #5736A3, #4B2A99)' : 'linear-gradient(to bottom left, #471CA9, #5736A3, #4B2A99)')};
 display: flex;
 flex-direction: column;
 justify-content: space-around;
